@@ -8,3 +8,6 @@ This program does much the same, but the integration tasks are distributed among
 ## processThread.c
 This program combines the previous two and incorporates threading and child processes to minimize the calculation time. 
 This C program implements multi-threaded numerical integration using the trapezoidal rule. It dynamically handles input for diverse integration tasks, distributing them among threads. Child processes are managed to maintain concurrency limits. Results are protected with a mutex.
+
+### Running 
+To run these programs, compile in the terminal with gcc -o filename filename.c -lm -pthread, and run with ./filename after that. It should prompt for inputs to integrate. 
